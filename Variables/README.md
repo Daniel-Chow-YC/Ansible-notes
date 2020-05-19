@@ -4,15 +4,15 @@
 Ansible will look for variables definitions in group and host variable files.
 
 For example:
-- group_vars/linux
-- group_vars/ubuntu
+- group_vars/webservers
+- group_vars/dbservers
 - host_vars/host0.example.org
 
 
 
 ## Setting Vatiables in Inventory
 ````
-[ubuntu]
+[webservers]
 host0.example.org ansible_host=192.168.0.12 ansible_port=2222
 ````
 - ansible_host sets the IP address for the host

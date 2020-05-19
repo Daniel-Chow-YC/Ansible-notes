@@ -1,0 +1,6 @@
+[webservers]
+host1.example.org
+host2.example.org
+
+[dbservers]
+host0.example.org

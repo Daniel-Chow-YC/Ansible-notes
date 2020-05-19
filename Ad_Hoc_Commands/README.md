@@ -4,12 +4,15 @@
 - ``-m`` the module being used
 - ``-i`` path to inventory
 - ``-a`` to pass arguements
-- ``-l`` limit to specific host 
+- ``-l`` limit to specific host from inventory
 
 ## Examples
 
 ### Ping module
 ``ansible -m ping all -i hosts``
+
+### Service module
+``ansible -i hosts -m service -a 'name=apache2 state=restarted' host1.example.org``
 
 ### Shell module
 ``ansible -i hosts -m shell -a 'grep DISTRIB_RELEASE /etc/lsb-release' all``

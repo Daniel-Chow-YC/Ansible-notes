@@ -4,6 +4,7 @@
 - ``-m`` the module being used
 - ``-i`` path to inventory
 - ``-a`` to pass arguements
+- ``-l`` limit to specific host 
 
 ## Examples
 

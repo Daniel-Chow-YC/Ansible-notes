@@ -15,7 +15,7 @@
 - Handlers are tasks that respond to a notification triggered by other tasks
 - Tasks only notify their handlers ``when the task changes something`` on a managed host
 - If one or more tasks notify a handler, ``the handler will run only once``
-- Handlers only run ``after all of the tasks are completed in a particular play``
+- Handlers only run ``after all the tasks are completed in a particular play``
 
 
 ## Loops

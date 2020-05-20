@@ -26,6 +26,9 @@ For example:
 - group_vars/dbservers
 - host_vars/host0.example.org
 
+- Host variables apply to a specific host
+- Group variables apply to all hosts in that host group
+
 ## Setting Vatiables in Inventory
 ````
 [webservers]

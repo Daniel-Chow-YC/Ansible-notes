@@ -36,7 +36,7 @@ For example:
 - Host variables apply to a specific host
 - Group variables apply to all hosts in that host group
 
-## Setting Vatiables in Inventory
+## Setting Variables in Inventory
 ````
 [webservers]
 host0.example.org ansible_host=192.168.0.12 ansible_port=2222

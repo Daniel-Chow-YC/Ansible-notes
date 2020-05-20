@@ -32,7 +32,7 @@ ubuntu
 debian
 ````
 
-## Setting Vatiables in Inventory
+## Setting Variables in Inventory
 ````
 [ubuntu]
 host0.example.org ansible_host=192.168.0.12 ansible_port=2222

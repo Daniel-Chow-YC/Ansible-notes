@@ -7,7 +7,7 @@
 ## Role Directory Structure
 The command ``ansible-galaxy init <name_of_role>`` can create the directory structure for you.
 
-[![ansible-roles.png](https://i.postimg.cc/ht55vCmF/ansible-roles.png)](https://postimg.cc/FY0ZnVGG)
+[![ansible-roles.png](https://i.postimg.cc/NGHdQRYF/ansible-roles.png)](https://postimg.cc/ThTV9LKv)
 
 - where ``role_example`` is the name of the role
 - For example you would move the tasks from a playbook to ``role_example/tasks/main.yml`` and you would move the handlers from a playbook to ``role_example/handlers/main.yml`` etc...

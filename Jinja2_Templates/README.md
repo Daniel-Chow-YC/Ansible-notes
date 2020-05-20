@@ -1,7 +1,7 @@
 # Jinja2 Templates
 
 If a file you want to deploy needs to be customized for each managed host you can use:
-- Jinja2 template files and the tempolate module
+- Jinja2 template files and the template module
 
 [![Screenshot-15.png](https://i.postimg.cc/CM2dsffG/Screenshot-15.png)](https://postimg.cc/K4nZZjfj)
 

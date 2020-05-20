@@ -39,3 +39,6 @@ The command ``ansible-galaxy init <name_of_role>`` can create the directory stru
 - In this example the role is called twice
 - The first time it iscalled with its default options
 - The second time it overides the role's default variables and uses a different Jinja2 template for its config file.
+
+## Ansible Galaxy
+Ansible Galaxy refers to the Galaxy website where users can share roles, and to a command line tool for installing, creating and managing roles.

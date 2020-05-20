@@ -17,6 +17,13 @@
     state: present
 
 ````
+- You can also define play variables in external files:
+````
+- hosts: all
+  vars_files:
+    - vars/users.yml
+
+````
 
 ## Group and host variable files
 Ansible will look for variables definitions in group and host variable files.
